@@ -23,3 +23,8 @@ g++ round_robin_scheduler.cpp -o rr_sched
 Implements the Safety Algorithm to determine if a system can allocate resources without entering a deadlock state.
 
 Uses a Work-Finish approach to simulate resource reclamation.
+
+3. FIFO Page Replacement (fifo_page_replacement.cpp)
+Implements the First-In-First-Out approach for memory management.
+Uses an unordered_set for O(1) page-hit detection and a queue to track page arrival order.
+Demonstrates the Cold Start phase (initial frame filling) and the Replacement phase.
