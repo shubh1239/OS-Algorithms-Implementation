@@ -18,3 +18,8 @@ A preemptive scheduling algorithm designed for time-sharing systems.
 ```bash
 g++ round_robin_scheduler.cpp -o rr_sched
 ./rr_sched
+
+**2. Banker's Algorithm (Deadlock Avoidance)**
+Implements the Safety Algorithm to determine if a system can allocate resources without entering a deadlock state.
+
+Uses a Work-Finish approach to simulate resource reclamation.
